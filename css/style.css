@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+.app{
+	text-align: center;
+	width: 50%;
+	align-items: center;
+	margin: auto;
+	background-color: rgb(153, 153, 152);
+}
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: arial, helvetica, sans-serif;
+	font-size: 20px;
+}
+.header {
+	background-color:rgb(35, 35, 122);
+	color: white;
+    text-align: center;
+    margin:auto;
+    padding:px;
+  }
+  
+.boton{
+    align-content: right;
+    background: none;
+	border-radius: 50px;
+	color:rgb(15, 14, 14);
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+	margin: 10px;
+}
+
+.boton:hover {
+	border: 1px solid #fff;
+}
+
+.cajaDeTexto{
+	background-color: none;
+	padding: 5px;
+	width: 30%;
+	margin: 15px;
+}
+.lista{
+background-color:none;
+margin: 20px;
+padding: 20px;
+}
+.lista li:hover {
+	text-decoration: line-through;
+}
+.inputs-tarea {
+	align-content: center;
+}
+.inputs-tarea .boton{
+	align-content: center;
+	text-align: center;
+	align-content: center;
+	background-color: rgb(15, 160, 92);
+}
+.inputs-tarea{
+    font-size: 20px;
+	text-align: center;
+}
+.inputs-tarea .lista {
+    font-size: 20px;
+	text-align: left;
+	margin: 20px;
+	
+}
